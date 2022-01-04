@@ -3,6 +3,7 @@ leetcode
 
 | Problems    | Difficulty  |    Code     |   Note      |
 | ----------- | ----------- | ----------- | ----------- |
+| [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [cpp](./code/cpp/MiddleOfTheLinkedList/MiddleOfTheLinkedList.cpp) | |
 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [cpp](./code/cpp/LinkedListCycle/LinkedListCycle.cpp) | |
 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [cpp](./code/cpp/ReverseLinkedList/ReverseLinkedList.cpp) | |
 | [15. 3 Sum](https://leetcode.com/problems/3sum/) | Medium | [cpp](./code/cpp/ThreeSum/ThreeSum.cpp) | |
