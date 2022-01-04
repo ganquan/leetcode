@@ -3,6 +3,7 @@ leetcode
 
 | Problems    | Difficulty  |    Code     |   Note      |
 | ----------- | ----------- | ----------- | ----------- |
+| [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | Medium | [swift](./code/swift/ZigzagConversion/ZigzagConversion.swift) | |
 | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | [cpp](./code/cpp/LongestPalindromicSubstring/LongestPalindromicSubstring.cpp) | |
 | [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | [swift](./code/swift/MedianofTwoSortedArrays/MedianofTwoSortedArrays.swift) | |
 | [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [cpp](./code/cpp/MiddleOfTheLinkedList/MiddleOfTheLinkedList.cpp) | |
