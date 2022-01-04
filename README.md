@@ -3,6 +3,7 @@ leetcode
 
 | Problems    | Difficulty  |    Code     |   Note      |
 | ----------- | ----------- | ----------- | ----------- |
+| [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | [swift](./code/swift/MedianofTwoSortedArrays/MedianofTwoSortedArrays.swift) | |
 | [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [cpp](./code/cpp/MiddleOfTheLinkedList/MiddleOfTheLinkedList.cpp) | |
 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [cpp](./code/cpp/LinkedListCycle/LinkedListCycle.cpp) | |
 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [cpp](./code/cpp/ReverseLinkedList/ReverseLinkedList.cpp) | |
