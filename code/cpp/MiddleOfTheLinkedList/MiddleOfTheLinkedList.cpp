@@ -67,7 +67,7 @@ void printList(ListNode* head) {
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
-
+        
         if (head == nullptr) {
             //参数为空
             return nullptr;
@@ -75,14 +75,11 @@ public:
         
         ListNode *slow = head;
         ListNode *fast = head;
-        
-        while (fast != nullptr && fast->next != nullptr && fast->next->next != nullptr) {
+    
+
+        while (fast != nullptr && fast->next != nullptr) {
+            slow = slow->next;
             fast = fast->next->next;
-            slow = slow->next;
-        }
-        
-        if (fast->next != nullptr && slow != fast->next) {
-            slow = slow->next;
         }
         
         return slow;
