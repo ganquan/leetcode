@@ -12,19 +12,9 @@
 class Solution {
 public:
     
-    ListNode* min(ListNode *node1, ListNode *node2) {
-        if (node1->val >= node2->val) {
-            return node2;
-        } else {
-            return node1;
-        }
-    }
-    
-    //Runtime: 4 ms, faster than 94.43% of C++ online submissions for Merge Two Sorted Lists.
-    //Memory Usage: 14.9 MB, less than 46.53% of C++ online submissions for Merge Two Sorted Lists.
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        
         ListNode *dummyNode = new ListNode(-101);
+        ListNode *merged = nullptr;
         ListNode *mergedCursor = dummyNode;
         
         ListNode *cursor1 = list1;
@@ -32,26 +22,23 @@ public:
         
         while (cursor1 != nullptr && cursor2 != nullptr) {
             
-            mergedCursor->next = min(cursor1, cursor2);
-            
-            if (mergedCursor->next == cursor1) {
+            if (cursor1->val < cursor2->val) {
+                mergedCursor->next = cursor1;
                 cursor1 = cursor1->next;
             } else {
+                mergedCursor->next = cursor2;
                 cursor2 = cursor2->next;
             }
-
-            //break the old link
-            mergedCursor->next->next = nullptr;
             
             mergedCursor = mergedCursor->next;
+            
         }
         
-        if (cursor1 == nullptr && cursor2 != nullptr) {
-            mergedCursor->next = cursor2;
-        } else if (cursor1 != nullptr && cursor2 == nullptr) {
-            mergedCursor->next = cursor1;
-        }
+        mergedCursor->next = cursor1 == nullptr ? cursor2 : cursor1;
         
-        return dummyNode->next;
-    }  
+        merged = dummyNode->next;
+        delete dummyNode;
+        
+        return merged;
+    }
 };
