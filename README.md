@@ -3,6 +3,7 @@ leetcode
 
 | Problems    | Difficulty  |    Code     |   Note      |
 | ----------- | ----------- | ----------- | ----------- |
+| [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [cpp](./code/cpp/MergeTwoSortedLists/MergeTwoSortedLists.cpp) | |
 | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [cpp](./code/cpp/ReorderList/ReorderList.cpp) | |
 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | [cpp](./code/cpp/RemoveNthNodeFromEndofList/RemoveNthNodeFromEndofList.cpp) | |
 | [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | Easy | [cpp](./code/cpp/RemoveLinkedListElements/RemoveLinkedListElements.cpp) | |
