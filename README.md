@@ -3,6 +3,7 @@ leetcode
 
 | Problems    | Difficulty  |    Code     |   Note      |
 | ----------- | ----------- | ----------- | ----------- |
+| [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | Easy | [cpp](./code/cpp/RemoveLinkedListElements/RemoveLinkedListElements.cpp) | |
 | [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | Medium | [cpp](./code/cpp/DeleteTheMiddleNodeOfALinkedList/DeleteTheMiddleNodeOfALinkedList.cpp) | |
 | [48. Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [swift](./code/swift/RotateImage/RotateImage.swift) | |
 | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [cpp](./code/cpp/RomantoInteger/RomantoInteger.cpp) | |
