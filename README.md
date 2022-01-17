@@ -3,6 +3,7 @@ leetcode
 
 | Problems    | Difficulty  |    Code     |   Note      |
 | ----------- | ----------- | ----------- | ----------- |
+| [460. LFU Cache](https://leetcode.com/problems/lfu-cache/) | Hard | [swift](./code/swift/LFUCache/LFUCache.swift) | [repo](https://github.com/ganquan/naiveLRU) |
 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/) | Medium | [swift](./code/swift/LRUCache/LRUCache.swift) | [repo](https://github.com/ganquan/naiveLRU) |
 | [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | [cpp](./code/cpp/MergekSortedLists/MergekSortedLists.cpp) | |
 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [cpp](./code/cpp/MergeTwoSortedLists/MergeTwoSortedLists.cpp) | |
