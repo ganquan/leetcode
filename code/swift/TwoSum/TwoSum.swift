@@ -1,5 +1,5 @@
 class Solution {
-    //暴利查找
+    // search brutely
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
          var result: [Int]?
         
@@ -19,7 +19,11 @@ class Solution {
         return result ?? [0]
     }
 
-    //using map
+    // using map
+    // 54 / 54 test cases passed.
+    // Status: Accepted
+    // Runtime: 56 ms
+    // Memory Usage: 14.9 MB
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var result: [Int] = []
 
@@ -62,5 +66,27 @@ class Solution {
 
         return result
     
+    }
+
+    // more brief
+    // 57 / 57 test cases passed.
+    // Status: Accepted
+    // Runtime: 61 ms
+    // Memory Usage: 14.5 MB
+    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+
+        var tmpMap: [Int:Int] = [:]
+        for i in 0...nums.count - 1 {
+            let distance = target - nums[i]
+            if let x = tmpMap[distance] {
+                return [x, i]
+            } else {
+                tmpMap[num[i]] = i
+                continue
+            }
+        }
+
+        return []
+
     }
 }
