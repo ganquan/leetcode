@@ -3,9 +3,10 @@ leetcode
 
 | Problems    | Difficulty  |    Code     |   Note      |
 | ----------- | ----------- | ----------- | ----------- |
-| [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy | [cpp](./code/cpp/TribonacciNumber/TribonacciNumber.cpp) | |
+| [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | [cpp](./code/cpp/MinCostClimbingStairs/MinCostClimbingStairs.cpp) | DP |
+| [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy | [cpp](./code/cpp/TribonacciNumber/TribonacciNumber.cpp) | DP |
 | [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy | [cpp](./code/cpp/FibonacciNumber/FibonacciNumber.cpp) | |
-| [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [cpp](./code/cpp/ClimbingStairs/ClimbingStairs.cpp) | |
+| [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [cpp](./code/cpp/ClimbingStairs/ClimbingStairs.cpp) | DP |
 | [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | Easy | [swift](./code/swift/SymmetricTree/SymmetricTree.swift) | |
 | [100. Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [swift](./code/swift/SameTree/SameTree.swift) | |
 | [460. LFU Cache](https://leetcode.com/problems/lfu-cache/) | Hard | [swift](./code/swift/LFUCache/LFUCache.swift) | [repo](https://github.com/ganquan/naiveLRU) |
