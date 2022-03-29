@@ -3,6 +3,7 @@ leetcode
 
 | Problems    | Difficulty  |    Code     |   Note      |
 | ----------- | ----------- | ----------- | ----------- |
+| [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | [cpp](./code/cpp/ThreeSumClosest/ThreeSumClosest.cpp) |  |
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | [cpp](./code/cpp/MinCostClimbingStairs/MinCostClimbingStairs.cpp) | DP |
 | [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy | [cpp](./code/cpp/TribonacciNumber/TribonacciNumber.cpp) | DP |
 | [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy | [cpp](./code/cpp/FibonacciNumber/FibonacciNumber.cpp) | |
