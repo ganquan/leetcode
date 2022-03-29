@@ -3,6 +3,7 @@ leetcode
 
 | Problems    | Difficulty  |    Code     |   Note      |
 | ----------- | ----------- | ----------- | ----------- |
+| [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [cpp](./code/cpp/ClimbingStairs/ClimbingStairs.cpp) | |
 | [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | Easy | [swift](./code/swift/SymmetricTree/SymmetricTree.swift) | |
 | [100. Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [swift](./code/swift/SameTree/SameTree.swift) | |
 | [460. LFU Cache](https://leetcode.com/problems/lfu-cache/) | Hard | [swift](./code/swift/LFUCache/LFUCache.swift) | [repo](https://github.com/ganquan/naiveLRU) |
