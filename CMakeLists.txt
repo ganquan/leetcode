@@ -43,7 +43,7 @@ foreach(d ${SUBDIRS})
     add_executable(${d}Test ${SRC_ROOT}/${d}/${d}Test.cpp
                             ${SRC_ROOT}/${d}/${d}.cpp)
 
-    target_link_libraries(${d}Test gtest_main)
+    target_link_libraries(${d}Test gtest_main gmock_main)
 
     gtest_discover_tests(${d}Test)
   endif()
