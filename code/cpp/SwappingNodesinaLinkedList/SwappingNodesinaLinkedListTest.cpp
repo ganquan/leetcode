@@ -148,7 +148,7 @@ TEST_F(SwappingNodesinaLinkedListTest, evenElements3) {
 
     vector<int> input = {1, 2, 3, 4, 5, 6};
     int k = 5;
-    vector<int> expect = {1, 5, 4, 3, 2, 6};
+    vector<int> expect = {1, 5, 3, 4, 2, 6};
 
     ListNode* head = utils::listFromVector(input); 
     vector<int> output = utils::vectorFromList(s.swapNodes(head, k));
@@ -181,7 +181,7 @@ TEST_F(SwappingNodesinaLinkedListTest, oddElements1) {
     ASSERT_THAT(output, ::testing::ElementsAreArray(expect));
 }
 
-TEST_F(SwappingNodesinaLinkedListTest, oddElements1) {
+TEST_F(SwappingNodesinaLinkedListTest, oddElements2) {
 
     vector<int> input = {1, 2, 3, 4, 5};
     int k = 5;
