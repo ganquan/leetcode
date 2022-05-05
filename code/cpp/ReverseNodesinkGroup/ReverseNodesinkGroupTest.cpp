@@ -185,11 +185,10 @@ TEST_F(ReverseNodesinkGroupTest, inputboundary11) {
 
     vector<int> input = {1, 2, 3, 4, 5, 6};
     int k = 6;
-    vector<int> expect = {6, 5, 4, 3, 2, 1;
+    vector<int> expect = {6, 5, 4, 3, 2, 1};
 
     ListNode* head = utils::listFromVector(input); 
     vector<int> output = utils::vectorFromList(s.reverseKGroup(head, k));
 
     ASSERT_THAT(output, ::testing::ElementsAreArray(expect));
 }
-

@@ -1,4 +1,3 @@
-
 struct ListNode {
     int val;
     ListNode *next;
@@ -8,8 +7,27 @@ struct ListNode {
 };
 
 class Solution {
-public:
+ public:
     ListNode* reverseKGroup(ListNode* head, int k) {
-        return head;
+        ListNode* cur = head;
+        for (int i = 0; i < k; i++) {
+            if (!cur)
+                return head;
+            cur = cur->next;
+        }
+        ListNode* curNode = reverseList(head, cur);
+        head->next = reverseKGroup(cur, k);
+        return curNode;
+    }
+
+    ListNode* reverseList(ListNode* head, ListNode* tail) {
+        ListNode* pre = tail;
+        while (head != tail) {
+            ListNode* t = head->next;
+            head->next = pre;
+            pre = head;
+            head = t;
+        }
+        return pre;
     }
 };
