@@ -3,6 +3,7 @@ leetcode
 
 | Problems    | Difficulty  |    Code     |   Note      |
 | ----------- | ----------- | ----------- | ----------- |
+| [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [cpp](./code/cpp/ValidParentheses/ValidParentheses.cpp) | Stack |
 | [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [cpp](./code/cpp/ReverseNodesinkGroup/ReverseNodesinkGroup.cpp) | List |
 | [1721. Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) | Medium | [cpp](./code/cpp/SwappingNodesinaLinkedList/SwappingNodesinaLinkedList.cpp) | List |
 | [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | [cpp](./code/cpp/SwapNodesinPairs/SwapNodesinPairs.cpp) | List |
