@@ -3,6 +3,7 @@ leetcode
 
 | Problems    | Difficulty  |    Code     |   Note      |
 | ----------- | ----------- | ----------- | ----------- |
+| [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | [cpp](./code/cpp/StringToInteger_atoi/StringToInteger_atoi.cpp) |  |
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [cpp](./code/cpp/ValidParentheses/ValidParentheses.cpp) | Stack |
 | [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [cpp](./code/cpp/ReverseNodesinkGroup/ReverseNodesinkGroup.cpp) | List |
 | [1721. Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) | Medium | [cpp](./code/cpp/SwappingNodesinaLinkedList/SwappingNodesinaLinkedList.cpp) | List |
