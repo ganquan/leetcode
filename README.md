@@ -3,6 +3,7 @@ leetcode
 
 | Problems    | Difficulty  |    Code     |   Note      |
 | ----------- | ----------- | ----------- | ----------- |
+| [50. Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium | [cpp](./code/cpp/Pow/) |  |
 | [27. Remove Element](https://leetcode.com/problems/remove-element/) | Easy | [cpp](./code/cpp/RemoveElement) |  |
 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [cpp](./code/cpp/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.cpp) |  |
 | [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | [cpp](./code/cpp/StringToInteger_atoi/StringToInteger_atoi.cpp) |  |
