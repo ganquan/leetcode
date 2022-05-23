@@ -3,6 +3,7 @@ leetcode
 
 | Problems    | Difficulty  |    Code     |   Note      |
 | ----------- | ----------- | ----------- | ----------- |
+| [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [cpp](./code/cpp/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.cpp) |  |
 | [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | [cpp](./code/cpp/StringToInteger_atoi/StringToInteger_atoi.cpp) |  |
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [cpp](./code/cpp/ValidParentheses/ValidParentheses.cpp) | Stack |
 | [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [cpp](./code/cpp/ReverseNodesinkGroup/ReverseNodesinkGroup.cpp) | List |
