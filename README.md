@@ -3,6 +3,7 @@ leetcode
 
 | Problems    | Difficulty  |    Code     |   Note      |
 | ----------- | ----------- | ----------- | ----------- |
+| [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard | [cpp](./code/cpp/RegularExpressionMatching/) | DP |
 | [1342. Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | Easy | [cpp](./code/cpp/NumberofStepstoReduceaNumbertoZero/) |  |
 | [50. Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium | [cpp](./code/cpp/Pow/) |  |
 | [27. Remove Element](https://leetcode.com/problems/remove-element/) | Easy | [cpp](./code/cpp/RemoveElement) |  |
