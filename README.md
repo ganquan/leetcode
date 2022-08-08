@@ -3,6 +3,7 @@ leetcode
 
 | Problems    | Difficulty  |    Code     |   Note      |
 | ----------- | ----------- | ----------- | ----------- |
+| [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | [cpp](./code/cpp/SearchInsertPosition/) |  |
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [cpp](./code/cpp/ContainerWithMostWater/) |  |
 | [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard | [cpp](./code/cpp/RegularExpressionMatching/) | DP |
 | [1342. Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | Easy | [cpp](./code/cpp/NumberofStepstoReduceaNumbertoZero/) |  |
